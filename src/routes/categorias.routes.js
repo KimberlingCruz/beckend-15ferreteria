@@ -8,6 +8,4 @@ router.get('/categorias', obtenerCategorias);
 router.get('/categoria/:id_categoria', obtenerCategoria);
 
 
-//Rutas para eliminar
-router.delete('/eliminarcategoria/:id_categoria', eliminarCategoria);
 export default router; 
